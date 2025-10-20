@@ -55,8 +55,8 @@ I'm a UI/UX Engineer and Tech enthusiast currently pursuing my degree at General
               </div>
               <div className="text-center mt-6" data-animate>
                 <a
-                  href="/cv/isuru-jayanada-cv.pdf"
-                  download="Janani-Rangila.cv"
+                  href="/cv/Janani-Rangila-CV.pdf"
+                  download="Janani-Rangila-CV.pdf"
                   className="inline-flex items-center gap-3 px-7 py-4 rounded-xl bg-gradient-to-r from-blue-700 via-sky-700 to-cyan-700 text-white text-lg font-semibold hover:from-blue-600 hover:via-sky-600 hover:to-cyan-600 transition-all duration-300 hover:scale-105 shadow-lg shadow-cyan-500/10 border border-white/10"
                   aria-label="Download CV as PDF"
                 >
@@ -71,3 +71,4 @@ I'm a UI/UX Engineer and Tech enthusiast currently pursuing my degree at General
     </section>
   );
 };
+
