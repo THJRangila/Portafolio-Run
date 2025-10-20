@@ -8,7 +8,7 @@ const educations = [
     location: 'Rathnapura',
     period: '2016-2018',
     achievements: [
-      '8 B’s and A in O/L Exams',
+      '3 A’s, 5 B’s and C in O/L Exams',
       'Awarded for passing the OL Exams',
       'Participated in various sports events'
     ],
