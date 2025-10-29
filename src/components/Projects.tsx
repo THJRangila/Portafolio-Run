@@ -45,12 +45,12 @@ const projects = [
     live: 'https://github.com/IzuuCode/flappy_Bird'
   },
   {
-    title: 'Personal Portafoliot',
+    title: 'Personal Portafolio',
     description: 'Welcome to the repository for my personal website — a digital space where I showcase my projects, technical skills, and share insights from my learning journey. Feel free to explore and get to know more about me',
     image: '👦🏼',
     tech: ['React', 'Javascript', 'Email.js', 'Typescript'],
     github: 'https://github.com',
-    live: 'https://isurujayanada.me/'
+    live: 'https://jananirangila.me/'
   }
 ];
 
