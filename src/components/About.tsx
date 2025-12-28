@@ -9,30 +9,30 @@ export const About: React.FC = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-white" data-animate>
             About <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">Me</span>
           </h2>
-          
+
           <div className="grid md:grid-cols-2 gap-12 items-center" data-animate>
             <div className="space-y-6">
               <p className="text-lg text-gray-300 leading-relaxed">
-I'm a Software Developer and Tech enthusiast currently pursuing my degree at General Sir John Kotelawala Defence University. With hands-on experience in web and mobile app development, I've built impactful solutions like Food Delivery App and the Weather Application. My journey started with a deep curiosity about technology, which evolved into a strong drive to create meaningful, user-centered digital experiences across platforms.
+                I'm a Software Developer and Tech enthusiast currently pursuing my degree at General Sir John Kotelawala Defence University. With hands-on experience in web and mobile app development, I've built impactful solutions like Food Delivery App and the Weather Application. My journey started with a deep curiosity about technology, which evolved into a strong drive to create meaningful, user-centered digital experiences across platforms.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                I specialize in modern web technologies and have a keen eye for design. 
+                I specialize in modern web technologies and have a keen eye for design.
                 I believe that great software is not just functional, but also beautiful and intuitive.
               </p>
-              
+
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12">
                 <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-lg hover:bg-white/10 transition-all duration-300">
                   <Code className="mx-auto mb-4 text-blue-400" size={32} />
                   <h3 className="text-white font-semibold mb-2">Clean Code</h3>
                   <p className="text-gray-400 text-sm">Writing maintainable and scalable code</p>
                 </div>
-                
+
                 <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-lg hover:bg-white/10 transition-all duration-300">
                   <Palette className="mx-auto mb-4 text-sky-400" size={32} />
                   <h3 className="text-white font-semibold mb-2">Design</h3>
                   <p className="text-gray-400 text-sm">Creating beautiful user experiences</p>
                 </div>
-                
+
                 <div className="text-center p-6 bg-white/5 backdrop-blur-sm rounded-lg hover:bg-white/10 transition-all duration-300">
                   <Rocket className="mx-auto mb-4 text-cyan-400" size={32} />
                   <h3 className="text-white font-semibold mb-2">Innovation</h3>
@@ -40,7 +40,7 @@ I'm a Software Developer and Tech enthusiast currently pursuing my degree at Gen
                 </div>
               </div>
             </div>
-            
+
             <div className="relative -mt-12 sm:-mt-16 md:-mt-24">
               <div className="w-80 h-80 mx-auto relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-full blur-xl opacity-30"></div>
@@ -55,8 +55,8 @@ I'm a Software Developer and Tech enthusiast currently pursuing my degree at Gen
               </div>
               <div className="text-center mt-6" data-animate>
                 <a
-                  href="/cv/isuru-jayanada-cv.pdf"
-                  download="Janani-Rangila.cv"
+                  href="/cv/Janani-Rangila-CV.pdf"
+                  download="Janani-Rangila-CV.pdf"
                   className="inline-flex items-center gap-3 px-7 py-4 rounded-xl bg-gradient-to-r from-blue-700 via-sky-700 to-cyan-700 text-white text-lg font-semibold hover:from-blue-600 hover:via-sky-600 hover:to-cyan-600 transition-all duration-300 hover:scale-105 shadow-lg shadow-cyan-500/10 border border-white/10"
                   aria-label="Download CV as PDF"
                 >
