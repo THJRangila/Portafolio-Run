@@ -208,7 +208,7 @@ export const Contact: React.FC = () => {
       
       <div className="text-center mt-16 pt-8 border-t border-white/10">
         <p className="text-gray-400">
-          © 2025 Janani Rangila. All rights reserved.
+          © 2026 Janani Rangila. All rights reserved.
         </p>
       </div>
     </section>
