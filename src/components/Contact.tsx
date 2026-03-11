@@ -130,8 +130,19 @@ export const Contact: React.FC = () => {
                     <p className="text-gray-400">Rathnapura, Sri Lanka</p>
                   </div>
                 </div>
+
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center">
+                    <Phone className="text-green-400" size={20} />
+                  </div>
+                  <div>
+                    <p className="text-white font-medium">Phone</p>
+                    <p className="text-gray-400">(+94) 071 958 9519</p>
+                  </div>
+                </div>
               </div>
             </div>
+            
             
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>

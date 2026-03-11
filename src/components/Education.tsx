@@ -8,7 +8,7 @@ const educations = [
     location: 'Rathnapura',
     period: '2016-2018',
     achievements: [
-      '8 B’s and A in O/L Exams',
+      '3 A’s ,5B & 1 C in O/L Exams',
       'Awarded for passing the OL Exams',
       'Participated in various sports events'
     ],
@@ -20,7 +20,7 @@ const educations = [
     location: 'Rathnapura',
     period: '2018-2020',
     achievements: [
-      '2C & B A/L Exam',
+      'A2 & s A/L Exam',
       'Participate Debarting Society',
       
     ],
@@ -34,7 +34,7 @@ const educations = [
     achievements: [
       'Developed multiple cross-platform apps',
       'Contributed to research ',
-      'Science Olympiad State Champion'
+      'Published research papers in international conferences'
     ],
     color: 'from-cyan-400 to-blue-400'
   },
@@ -134,7 +134,7 @@ export const Education: React.FC = () => {
             {[
               { label: 'Years of Study', value: '10+', icon: GraduationCap },
               { label: 'Awards', value: '10+', icon: Award },
-              { label: 'Research Papers', value: '1', icon: Calendar }
+              { label: 'Research Papers', value: '3+', icon: Calendar }
             ].map((stat, index) => (
               <div
                 key={stat.label}

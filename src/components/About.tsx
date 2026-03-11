@@ -47,7 +47,7 @@ export const About: React.FC = () => {
                 <div className="relative w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 rounded-full flex items-center justify-center border border-white/10">
                   {/* Add image here */}
                   <img
-                    src="/images/me.jpg"  // Path to your image inside the 'public/images' folder
+                    src="/images/me_1.jpeg"  // Path to your image inside the 'public/images' folder
                     alt="Photo of Janani Rangila"
                     className="w-full h-full object-cover rounded-full"  // Full circle fit
                   />
@@ -55,8 +55,8 @@ export const About: React.FC = () => {
               </div>
               <div className="text-center mt-6" data-animate>
                 <a
-                  href="/cv/Janani-Rangila-CV.pdf"
-                  download="Janani-Rangila-CV.pdf"
+                  href="/cv/Janani_Rangila_CV.pdf"
+                  download="Janani_Rangila_CV.pdf"
                   className="inline-flex items-center gap-3 px-7 py-4 rounded-xl bg-gradient-to-r from-blue-700 via-sky-700 to-cyan-700 text-white text-lg font-semibold hover:from-blue-600 hover:via-sky-600 hover:to-cyan-600 transition-all duration-300 hover:scale-105 shadow-lg shadow-cyan-500/10 border border-white/10"
                   aria-label="Download CV as PDF"
                 >

@@ -52,7 +52,7 @@ export const Hero: React.FC = () => {
               </svg>
             </a>
             <a
-              href="mailto:th.ja.rangi@gmail.com"
+              href="https://api.whatsapp.com/send/?phone=%2B94719589519&text&type=phone_number&app_absent=0"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-110 group"

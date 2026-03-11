@@ -1,14 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 
 const skills = [
-  { name: 'python', level: 95 },
+  { name: 'python', level: 80 },
   { name: 'JavaScript', level: 80 },
   { name: 'HTML', level: 85 },
   { name: '.NET', level: 80 },
-  { name: 'PHP', level: 70 },
-  { name: 'Dart', level: 75 },
-  { name: 'Figma', level: 70 },
-  { name: 'Node.js', level: 75 },
+  { name: 'PHP', level: 60 },
+  { name: 'Dart', level: 65 },
+  { name: 'Figma', level: 95 },
+  { name: 'Node.js', level: 80 },
 ];
 
 export const Skills: React.FC = () => {
