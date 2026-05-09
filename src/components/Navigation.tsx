@@ -91,6 +91,13 @@ export const Navigation: React.FC = () => {
                 </button>
               );
             })}
+            <a
+              href="/cv/Janani_Rangila_CV.pdf"
+              download="Janani_Rangila_CV.pdf"
+              className="ml-2 px-5 py-2 rounded-full bg-gradient-to-r from-blue-500/20 to-cyan-500/20 text-white text-sm font-medium hover:bg-white/10 border border-white/10 transition-all duration-300 hover:scale-105 shadow-[0_0_15px_rgba(34,211,238,0.1)]"
+            >
+              Resume
+            </a>
           </div>
 
           {/* Mobile burger */}
@@ -122,6 +129,15 @@ export const Navigation: React.FC = () => {
                   </button>
                 );
               })}
+              <div className="pt-2 mt-2 border-t border-white/10">
+                <a
+                  href="/cv/Janani_Rangila_CV.pdf"
+                  download="Janani_Rangila_CV.pdf"
+                  className="block w-full text-center capitalize px-3 py-2 rounded-lg bg-gradient-to-r from-blue-500/20 to-cyan-500/20 text-white font-medium hover:bg-white/10 border border-white/5 transition-all duration-300"
+                >
+                  Download Resume
+                </a>
+              </div>
             </div>
           </div>
         )}

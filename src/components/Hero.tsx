@@ -24,6 +24,7 @@ export const Hero: React.FC = () => {
             Passionate about crafting beautiful, functional, and user-centered solutions.
           </p>
           
+
           <div className="flex justify-center space-x-6 mb-12">
             <a
               href="https://github.com/THJRangila"
